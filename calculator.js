@@ -29,8 +29,11 @@ function calculator(value1, value2, operation) {
         const result = devision(value1, value2);
         return result;
     }
+    else {
+        return  "This Calculator only do ADD, Subtract, Multiplication, Devision";
+    }
 
 }
 
-const result = calculator(6, 5, "multiplication");
+const result = calculator(6, 5, "percentage");
 console.log("calculate the value: ", result)
